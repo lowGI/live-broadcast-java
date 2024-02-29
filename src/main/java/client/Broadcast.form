@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="client.Broadcast">
+  <grid id="27dc6" binding="panelComment" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="21" y="28" width="1022" height="502"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1d9d1" class="javax.swing.JTextField" binding="tfComment">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="5"/>
+        </constraints>
+        <properties>
+          <background color="-14211289"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <scrollpane id="3f9b5" binding="scroll">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="8" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="400" ipady="310"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1fdac" class="javax.swing.JTextArea" binding="taComment">
+            <constraints/>
+            <properties>
+              <background color="-14869219"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="e889b" class="javax.swing.JButton" binding="btnSend">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13447886"/>
+          <foreground color="-1"/>
+          <text value="Send"/>
+        </properties>
+      </component>
+      <component id="c9e92" class="javax.swing.JButton" binding="btnUnsend">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-12425294"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <text value="Unsend(20)"/>
+        </properties>
+      </component>
+      <component id="a55b3" class="javax.swing.JLabel" binding="labelScreen">
+        <constraints>
+          <grid row="2" column="0" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="image/screen.gif"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="29935" class="javax.swing.JButton" binding="btnLeave">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-65536"/>
+          <foreground color="-1"/>
+          <text value="Leave"/>
+        </properties>
+      </component>
+      <component id="4438b" class="javax.swing.JLabel" binding="labelLive">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-65536"/>
+          <font name="Arial Black" size="26" style="1"/>
+          <foreground color="-1"/>
+          <text value="⦿LIVE "/>
+        </properties>
+      </component>
+      <component id="928c8" class="javax.swing.JButton" binding="btnDonateOrEnd">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-11264"/>
+          <foreground color="-16777216"/>
+          <text value="Donate"/>
+        </properties>
+      </component>
+      <component id="780fb" class="javax.swing.JLabel" binding="JATLTV">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono ExtraBold" size="34" style="3"/>
+          <foreground color="-5813005"/>
+          <horizontalTextPosition value="10"/>
+          <icon value="image/logo.png"/>
+          <text value="JATLTV"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="4c801" class="javax.swing.JSeparator" binding="sep1">
+        <constraints>
+          <grid row="2" column="1" row-span="5" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="23"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c4dd7" class="javax.swing.JSeparator" binding="sep2">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="360" ipady="15"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2d5a3" class="javax.swing.JSeparator" binding="sep3">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="18"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="39e62" class="javax.swing.JSeparator" binding="sep4">
+        <constraints>
+          <grid row="3" column="8" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="10" ipady="50"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4f7aa" class="javax.swing.JSeparator" binding="sep5">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="100"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="60389" class="javax.swing.JSeparator" binding="sep6">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="100"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="82a44" class="javax.swing.JSeparator" binding="sep7">
+        <constraints>
+          <grid row="3" column="6" row-span="4" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="10"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fb9e2" class="javax.swing.JSeparator" binding="sep8">
+        <constraints>
+          <grid row="5" column="5" row-span="2" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="552eb" class="javax.swing.JLabel" binding="labelSupport">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="22" style="3"/>
+          <foreground color="-65536"/>
+          <text value="Please Like, Share and Support!"/>
+        </properties>
+      </component>
+      <component id="3dcdd" class="javax.swing.JTextField" binding="tfUsername">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-14211289"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <foreground color="-16711936"/>
+        </properties>
+      </component>
+      <component id="a75cd" class="javax.swing.JSeparator" binding="sep9">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="80"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
